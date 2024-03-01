@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  users-service:
+    build:
+      context: ./users-service
+    ports:
+      - "8001:80"
+    depends_on:
+      - notifications-service
+
+  notifications-service:
+    build:
+      context: ./notifications-service
+    ports:
+      - "8002:80"

@@ -33,7 +33,8 @@ Before getting started, make sure you have the following tools installed:
 ```bash
 git clone https://github.com/somofola/laravel-microservices-application.git
 cd laravel-microservices-application
-docker-compose up --build```
+docker-compose up --build
+```
 
 ### Access Services
 Users Service: http://localhost:8001
@@ -44,11 +45,13 @@ Run tests for each service to ensure the application's functionality:
 
 ### Users Service
 ```bash
-docker-compose exec users-service vendor/bin/phpunit```
+docker-compose exec users-service vendor/bin/phpunit
+```
 
 ### Notifications Service
 ```bash
-docker-compose exec notifications-service vendor/bin/phpunit```
+docker-compose exec notifications-service vendor/bin/phpunit
+```
 
 
 ## Architecture Overview

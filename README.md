@@ -37,7 +37,7 @@ docker-compose up --build
 ```
 
 ### Access Services
-Users Service: http://localhost:8001
+Users Service: http://localhost:8001 \
 Notifications Service: http://localhost:8002
 
 ## Running Tests
